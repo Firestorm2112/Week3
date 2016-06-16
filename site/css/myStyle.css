@@ -1,33 +1,45 @@
 body {
-	font-size: 16px;
 	background-color: #fff;
 
 }
 
 #header-nav {
-	background-color: #a9a9a9;
+	background-color: #b8b8b8;
 	border-radius: 0;
-	border: 1;
-	height: 80px;
-}
-.navbar-brand {
-	margin-top: -20px;
-	margin-left: -50px;
+	border: 0;
 }
 
-
-h1 {
-	font-weight: bold;
-
-
+.navbar-header {
+	padding-left: 20px;
 }
 
-section {
-	background-color: #a9a9a9;
+#nav-list a:hover {
+	background: e7e7e7;
 }
-section h2 {
+
+h2 {
+	text-align: center;
+}
+h3 {
 	text-align: center;
 }
 
+p {
+	font-size: .8em;
+}
 
+div .jumbotrom {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ffffff;
+}
+.chickeninabox, .beefinabox, .sushiinabox {
+	background-color: #b8b8b8;
+}
 
+.navbar-header .navbar-brand {
+	font-weight: bold;
+	color: #000000;
+	font-size: 2em;
+}
